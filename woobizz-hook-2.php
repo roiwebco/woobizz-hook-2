@@ -31,7 +31,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 function woobizzhook2_admin_notice() {
     ?>
     <div class="notice notice-error is-dismissible">
-        <p><?php _e( 'Woobizz Hook 2 needs WooCommerce to work properly, If you do not use this plugin you can disable it!', 'woobizzhook2' ); ?></p>
+        <p><?php _e( 'Woobizz hook 2 needs woocommerce to work properly, please install and activate woocommerce or disable this plugin.', 'woobizzhook2' ); ?></p>
     </div>
     <?php
 }
